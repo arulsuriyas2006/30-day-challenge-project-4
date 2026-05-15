@@ -93,7 +93,7 @@ function App() {
       <h1 className="text-white font-semibold">AI Respose</h1>
       <button className="btn"onClick={handleAskAI} disabled={loading}>{loading?"Thinking...":"ASK AI"}</button>
     </div>
-    <p className="text-white/90 text-sm min-h-[140px]">{aiResponse}</p>
+    <p className="text-white/90 text-sm min-h-[140px] mt-10">{aiResponse}</p>
     <div className="w-full text-center text-white/60 text-sm absolute bottom-5 left-0">We only send the final expression and result when you click "ASK AI".</div>
   </div>
   </div>
